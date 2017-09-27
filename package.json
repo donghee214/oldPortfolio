@@ -20,6 +20,9 @@
     "node-sass": "^4.3.0",
     "react": "15.4.2",
     "react-dom": "15.4.2",
+    "react-motion": "^0.4.7",
+    "react-slick": "^0.14.11",
+    "react-typewriter": "^0.4.1",
     "sass-loader": "^6.0.2"
   },
   "devDependencies": {
