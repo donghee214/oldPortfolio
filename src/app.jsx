@@ -24,7 +24,6 @@ import Design from './design.jsx'
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    var images=['http://res.cloudinary.com/donghee214/image/upload/v1502156825/enlight3_uyag5v.png']
     // console.log(arrayImages[0])
     this.state = {
       holdMouseDown: null,
@@ -108,8 +107,6 @@ export default class App extends React.Component {
             imageDetails: ["PRODUCT","DESIGNER","May 2017","- Aug 2017", [["The majority of term was spent on a project where we saw it through from research to development. The project was to build a platform to help researchers access insights or artifacts that other researchers would have done within the enterprise.", <Research />], ["Prior to jumping into interviews, pre-research was conducted through case studies and benchmarking existing technologies.", <Research />], ["Following, interview questions were crafted and tested on a small sample group and iterated on to minimize ambiguity.",<Research />],[" After the interviews, the recorded replies with transcribed and clustered for repeating themes. From those themes, insights were drawn over a week locked in a room with the team.", <Research />], ["Finally, from these insights a new \'How Might We\' statement was written to guide the design choices that followed.", <Design />]]],
             imageIndex: 
             ["http://res.cloudinary.com/donghee214/image/upload/v1505337558/pathway1_qdckgr.jpg",
-             "http://res.cloudinary.com/donghee214/image/upload/v1505337558/pathway2_nbxkoq.jpg",
-             "http://res.cloudinary.com/donghee214/image/upload/v1505337558/pathway3.5_cegj7x.jpg",
              "http://res.cloudinary.com/donghee214/image/upload/v1505337558/pathway3_zwvdnd.jpg",
              "http://res.cloudinary.com/donghee214/image/upload/v1505338437/pathway4_elfdsa.jpg"],
             key: 'five',
@@ -300,10 +297,10 @@ export default class App extends React.Component {
             Title: "Stranded",
             Employer: "Geolocation App",
             Description: "Working on an assignment to conduct user research, interview, ideate, prototype, and conduct user testing. The problem is helping people who have spare time in an unfamiliar location to find activities to do",
-            tags: ["Paper Prototyping","Figma", "Illustrator"],
+            tags: ["Paper Prototyping", "Axure", "Illustrator"],
             imageDetails: ["","STRANDED","Sept 2017","- CURRENT", [["Designed and iterated on a questionnaire to send out to a set of about 100 students", <Research />], ["9 Interviews were conducted on the target group which was decided to be young adults. The interviews were then transcribed and turned into a formative report", <Research/>], ["Out of that, persona's would be created in order to aid the process of ideating as a team", <Research/>], ["Currently, we are in process of storyboarding our idea on how the user would interact with our application", <Design />]]],
             imageIndex: ["http://res.cloudinary.com/donghee214/image/upload/v1506437311/Untitled-1_z4fhi5.png"],
-            key: 'six',
+            key: 'six1',
             width: 91,
             subtract: 0,
             arrow:true,

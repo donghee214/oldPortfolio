@@ -43,7 +43,7 @@ html {
     display: inline-flex;
     margin: 0;
     padding: 0;
-    width: 15%;
+    width: 20%;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     bottom: 0;
@@ -196,9 +196,9 @@ position: absolute;
 
 .divider {
     position: absolute;
-    height: 60vw;
+    height: 75vw;
     width: 1.5px;
-    left: 58vw;
+    left: 57vw;
     top: 0;
     background-color: black;
     -webkit-transform: rotate(7.5deg);
@@ -1120,6 +1120,9 @@ section {
 
 }
 
+.behance{
+  margin-left: 5px;
+}
 /* '' */
 
 .icon-instagram:before {
@@ -2716,6 +2719,7 @@ p{
   -webkit-clip-path: polygon(8.2vw 0vw, 56vw 0vw, 60vw 100vw, -4.85vw 100vw);
   clip-path: polygon(8.2vw 0vw, 56vw 0vw, 60vw 100vw, -4.85vw 100vw);
   background: transparent;
+  overflow:hidden;
 }
 
 .img-responsive{

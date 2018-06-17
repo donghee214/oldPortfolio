@@ -130,22 +130,22 @@ export default class Box1 extends React.Component {
                     {value => {
                         return <svg version="1.1" viewBox="0 0 650 150" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             style={{ enableBackground: "new 0 0 960 560" }}>
-                            <line stroke="#333333" stroke-width="3" className="st0" x1="1" y1="3" x2= "630" y2="3"style={{
+                            <line stroke="#333333" className="st0" x1="1" y1="3" x2= "630" y2="3"style={{
                                 WebkitTransform: `translate3d(${value.x}px, 0, 0)`,
                                 transform: `translate3d(${value.x}px, 0, 0)`,
                             }}>
 
                             </line>
-                            <line stroke="#333333" stroke-width="3" className="st0" x1="630" y1="2" x2="612" y2="149"
+                            <line stroke="#333333" className="st0" x1="630" y1="2" x2="612" y2="149"
                             style={{
                                  WebkitTransform: `translate3d(${value.x2}px, ${value.y}px, 0)`,
                                 transform: `translate3d(${value.x2}px, ${value.y}px, 0)`,
                             }}/>
-                            <line stroke="#333333" stroke-width="3" className="st0" x1="612" y1="148" x2="1" y2="148"style={{
+                            <line stroke="#333333" className="st0" x1="612" y1="148" x2="1" y2="148"style={{
                                 WebkitTransform: `translate3d(${value.x1}px, 0, 0)`,
                                 transform: `translate3d(${value.x1}px, 0, 0)`,
                             }}/>
-                            <line stroke="#333333" stroke-width="3" className="st0" x1="1" y1="148" x2="1" y2="3"style={{
+                            <line stroke="#333333" className="st0" x1="1" y1="148" x2="1" y2="3"style={{
                                 WebkitTransform: `translate3d(0, ${value.y2}px, 0)`,
                                 transform: `translate3d(0, ${value.y2}px, 0)`,
                             }}/>

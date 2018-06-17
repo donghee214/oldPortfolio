@@ -4,7 +4,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Big Horror Athens is an award winning creative studio.">
+    <meta name="description" content="Dan Kim's Design/Dev Portfolio!">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
@@ -33,7 +33,7 @@
 
    if(isMobileDevice()) {
         alert("Site isn't mobile ready yet, my apologies! Gonna redirect you to my resume instead!!")
-        window.location = "http://res.cloudinary.com/donghee214/raw/upload/v1506379030/resume_design_eucvpp.pdf";
+        window.location = "http://res.cloudinary.com/donghee214/raw/upload/v1513745083/resume_dev_yuvcgh.pdf";
    } 
 
 
@@ -66374,6 +66374,10 @@
 
 
             // introTimeline.add(welcome.enterTimeline.play(), 5.4).play();
+            if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+                document.getElementById('scene-wrapper').style.display = 'none'
+                 
+            }
         };
 
         $(window).load(function() {
@@ -66383,6 +66387,8 @@
                     initApp();
                 }, 2200);
             }
+       
+          
         });
 
         $(window).on('breakpointChange', function(event, lastBP, currentBP) {
@@ -66391,5 +66397,6 @@
             }
         });
     })(jQuery);
+
     //# sourceMappingURL=main.js.map
 </script>
